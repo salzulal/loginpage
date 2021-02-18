@@ -1,0 +1,41 @@
+@import "../../../scss/modules/mixins";
+@import "../../../scss/modules/variables";
+
+.form-check {
+  .form-check-input {
+    height: 16px;
+    width: 16px;
+  }
+  .form-check-label {
+    @include font($size: 12px, $colour: $black, $weight: 400);
+  }
+}
+
+a {
+  @include font($size: 12px, $weight: 500);
+}
+
+#loginhelp {
+  margin: 4px 56px 12px 56px;
+  @include flex-center-vert;
+}
+
+.button-row {
+  margin: 12px 56px;
+}
+
+#buttonleft {
+  padding-right: 4px;
+}
+#buttonright {
+  padding-left: 4px;
+}
+
+#sub {
+  @include font($size: 12px, $colour: #7a7a7a, $weight: 400);
+  @include flex-center;
+}
+
+#logo-login {
+  margin-right: 16px;
+}

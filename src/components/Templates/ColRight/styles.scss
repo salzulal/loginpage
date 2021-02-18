@@ -1,0 +1,8 @@
+@import "../../../scss/modules/mixins";
+@import "../../../scss/modules/variables";
+
+#rowcontainer-right {
+  height: 100vh;
+  @include flex-center;
+  background-color: #f5f6f8;
+}

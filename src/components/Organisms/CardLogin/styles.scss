@@ -1,0 +1,25 @@
+@import "../../../scss/modules/mixins";
+@import "../../../scss/modules/variables";
+
+.cardlogin {
+  height: fit-content;
+  width: 25vw;
+  min-width: 408px;
+  max-width: 450px;
+  background: #ffffff;
+  box-shadow: 0px 8px 16px rgba(67, 97, 154, 0.09);
+  border-radius: 8px;
+  border: transparent;
+}
+
+hr {
+  margin: 20px 0px;
+  background-color: #eeeeee;
+  border-color: #eeeeee;
+}
+
+#footer {
+  @include font($size: 12px, $colour: #7a7a7a, $weight: 400);
+  @include flex-center;
+  margin-bottom: 20px;
+}
